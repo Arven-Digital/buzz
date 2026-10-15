@@ -18,6 +18,16 @@ overrides:
   # 5.0.1 / 5.0.2 respectively; pin >=5.0.2 to cover both. Removable once
   # markdown-it resolves linkify-it >=5.0.2 on its own.
   linkify-it: "^5.0.2"
+  # Patched floors for transitive parser/build dependencies (live audit union).
+  "@babel/core@<7.29.6": "^7.29.6"
+  "baseline-browser-mapping@<2.11.0": "^2.11.0"
+  "browserslist@<4.28.7": "^4.28.7"
+  "markdown-it@<14.3.1": "^14.3.1"
+  "nanoid@<3.3.18": "^3.3.18"
+  "postcss@<8.5.23": "^8.5.23"
+  "postcss-selector-parser@<7.1.6": "^7.1.6"
+  "seroval@<1.6.3": "^1.6.3"
+  "source-map-js@<1.2.2": "^1.2.2"
 patchedDependencies:
   isomorphic-git: patches/isomorphic-git.patch
   virtua@0.49.3: patches/virtua@0.49.3.patch
