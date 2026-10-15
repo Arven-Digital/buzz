@@ -11,7 +11,7 @@
 //! On replacement, open items that disappear without being marked done
 //! trigger a soft warning appended to the tool response.
 
-use rmcp::model::{CallToolResult, Content};
+use rmcp::model::{CallToolResult, ContentBlock as Content};
 use rmcp::ErrorData;
 use schemars::JsonSchema;
 use serde::Deserialize;

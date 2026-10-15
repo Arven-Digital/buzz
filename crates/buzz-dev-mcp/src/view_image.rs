@@ -18,7 +18,7 @@ use image::{
     DynamicImage, ExtendedColorType, ImageEncoder, ImageReader, Limits,
 };
 use rmcp::{
-    model::{CallToolResult, Content},
+    model::{CallToolResult, ContentBlock as Content},
     ErrorData,
 };
 use schemars::JsonSchema;
